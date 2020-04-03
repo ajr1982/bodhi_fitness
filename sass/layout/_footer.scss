@@ -1,0 +1,140 @@
+footer {
+    width: 100vw;
+    height: 250vw;
+    background-color: $bodhi-dark-footer-background;
+    color: #ffffff;
+    font-family: $body-font;
+    padding: 62vw 5.333vw 12.8vw 5.333vw;
+    margin: 0 auto;
+
+    @include for-desktop {
+        height: 38.88vw;
+        padding: 13.194vw 8.333vw 8.611vw 8.333vw;
+        margin:  0 auto;
+    }
+
+    svg {
+        width: 21.866vw;
+        height: 6.933vw;
+
+        @include for-desktop {
+            width: 12.847vw;
+            height: 4.027vw;
+        }
+    }
+
+    .five-col-block {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        @include for-desktop {
+            flex-direction: row;
+            align-items: baseline;
+            justify-content: center;
+        }
+    }
+
+    .five-col-block__column {
+
+        //@include element-boundary;
+        @include for-desktop {
+            flex-basis: 365px;
+            
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+
+    p {
+        padding-left: 10.666vw;
+        text-align: left;
+        color: #ffffff;
+        font-size: 4.26vw;
+        background-position: top left;
+        background-repeat: no-repeat;
+
+        @include for-desktop {
+            padding-left: 2.91vw;
+            font-size: 1.111vw;
+        }
+    }
+
+    p.address {
+        background-image: url(../images/icon-location.svg);
+        background-size: 5vw;
+
+        @include for-desktop {
+            background-size: 0.972vw;
+        }
+    }
+
+    p.tel {
+        background-image: url(../images/icon-phone.svg);
+        background-size: 6.1vw;
+
+        @include for-desktop {
+            background-size: 1.527vw;
+        }
+    }
+
+    p.email {
+        background-image: url(../images/icon-email.svg);
+        background-size: 7.466vw;
+
+        @include for-desktop {
+            background-size: 1.597vw;
+        }
+    }
+    p.insta {
+        background-image: url(../images/icon-instagram.svg);
+        background-size: 5.859vw;
+
+        @include for-desktop {
+            background-size: 1.56vw;
+        }
+    }
+    p.facebook {
+        background-image: url(../images/icon-facebook.svg);
+        background-size: 5.9vw;
+
+        @include for-desktop {
+            background-size: 1.56vw;
+        }
+    }
+
+    
+    .five-col-block__column--second,
+    .five-col-block__column--first {
+        @include for-desktop {
+            margin-left: 5vw;
+
+        }
+    }
+
+    .five-col-block__column--second,
+    .five-col-block__column--fourth {
+        padding-bottom: 7vw;
+
+        @include for-desktop {
+            padding-bottom: 0;
+
+        }
+    }
+
+    
+
+    
+
+    
+
+}
+
+footer_logo path {
+    fill: #ffffff;
+}
