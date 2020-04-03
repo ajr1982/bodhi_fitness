@@ -175,9 +175,7 @@ section.section__about{
 
 section.testimonials {
     background-color: $bodhi-green;
-    background-image: url(../images/main.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     position: relative;
     width: 100%;
     display: grid;
@@ -198,35 +196,38 @@ section.testimonials {
         column-gap: 4vw;
         row-gap: 4vw;
         padding-bottom:40vw;
+        background-image: url(../images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     }
 
     .testimonial__quote-mark {
         position: absolute;
-       
+        font-size: 30vw;
         width: 10vw;
-        color: $bodhi-green;
+        color: $bodhi-dark-copy;
 
         @include for-desktop {
            
             width: 5vw;
-           
+            color: $bodhi-green;
             font-size: 12vw;
             line-height: 0;
            
         }
     }
     .testimonial__quote-mark--left{
-        left: 10vw;
-        top: .5vw;
+        left: 3vw;
+        top: 3vw;
         @include for-desktop {
             left: 5vw;
             top: 10vw;
     }
 }
 .testimonial__quote-mark--right{
-    left: 90vw;
-    top: .5vw;
+    left: 83vw;
+    top: 228vw;
     @include for-desktop {
         left: 90vw;
         top: 36.5vw;
