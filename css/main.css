@@ -32,7 +32,7 @@ h3 {
 ul,
 li,
 a {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 h1 {
@@ -68,7 +68,7 @@ h3 {
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 4vw;
   text-align: center;
   font-weight: 400;
@@ -453,7 +453,7 @@ section.testimonials .testimonial__quote-mark--right {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: e-role;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .profile .profile-image {
@@ -745,7 +745,7 @@ footer {
   height: 80vw;
   background-color: #000000;
   color: #ffffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   padding: 10vw 5.333vw 12.8vw 5.333vw;
   margin: 0 auto;
 }
@@ -905,7 +905,7 @@ footer_logo path {
 }
 
 .btn {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: #65e2d9;
   background-image: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc));
   background-image: linear-gradient(to right, #65e2d9 0%, #339ecc 100%);
@@ -983,7 +983,7 @@ main {
 }
 
 .floating input[type=text] {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 3vw;
   padding-left: 6vw;
   color: #999999;
