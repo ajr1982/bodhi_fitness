@@ -254,7 +254,7 @@ section.section__about .two-col-block__column img {
 }
 
 section.section__about .two-col-block__column p {
-  text-align: justify;
+  text-align: left;
 }
 
 @media (min-width: 720px) {
@@ -346,7 +346,7 @@ section.testimonials .testimonial__quote-mark--left {
 
 section.testimonials .testimonial__quote-mark--right {
   left: 83vw;
-  top: 228vw;
+  top: 235vw;
 }
 
 @media (min-width: 720px) {
@@ -377,16 +377,16 @@ section.testimonials .testimonial__quote-mark--right {
 }
 
 .testimonial img {
-  width: 6.4vw;
-  -webkit-clip-path: circle(3.2vw at 3.2vw 3.2vw);
-          clip-path: circle(3.2vw at 3.2vw 3.2vw);
+  width: 8vw;
+  -webkit-clip-path: circle(4vw at 4vw 4vw);
+          clip-path: circle(4vw at 4vw 4vw);
 }
 
 @media (min-width: 720px) {
   .testimonial img {
-    width: 1.94vw;
-    -webkit-clip-path: circle(0.97vw at 0.97vw 0.97vw);
-            clip-path: circle(0.97vw at 0.97vw 0.97vw);
+    width: 5vw;
+    -webkit-clip-path: circle(2.5vw at 2.5vw 2.5vw);
+            clip-path: circle(2.5vw at 2.5vw 2.5vw);
   }
 }
 
@@ -433,9 +433,9 @@ section.testimonials .testimonial__quote-mark--right {
 
 @media (min-width: 720px) {
   .profile {
-    -ms-grid-columns: 1.94vw 9vw;
-        grid-template-columns: 1.94vw 9vw;
-    font-size: .7vw;
+    -ms-grid-columns: 5vw 9vw;
+        grid-template-columns: 5vw 9vw;
+    font-size: 1vw;
     -webkit-column-gap: .7vw;
             column-gap: .7vw;
   }
@@ -680,6 +680,7 @@ header nav ul li {
 @media (min-width: 720px) {
   header nav ul li {
     font-size: 1.111vw;
+    padding-left: 2vw;
   }
 }
 
@@ -694,15 +695,15 @@ header nav ul li a {
 }
 
 header p {
-  width: 81.333vw;
+  width: 82vw;
   margin: 9vw auto 8vw auto;
-  text-align: justify;
+  text-align: center;
 }
 
 @media (min-width: 720px) {
   header p {
     width: 50.138vw;
-    margin: 0 auto 2vw auto;
+    margin: 0 auto 3vw auto;
   }
 }
 
@@ -725,7 +726,7 @@ header .header__logo-container {
 
 @media (min-width: 720px) {
   header p {
-    width: 65.94vw;
+    width: 68vw;
   }
 }
 
@@ -741,18 +742,18 @@ header a {
 
 footer {
   width: 100vw;
-  height: 250vw;
+  height: 80vw;
   background-color: #000000;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
-  padding: 62vw 5.333vw 12.8vw 5.333vw;
+  padding: 10vw 5.333vw 12.8vw 5.333vw;
   margin: 0 auto;
 }
 
 @media (min-width: 720px) {
   footer {
-    height: 38.88vw;
-    padding: 13.194vw 8.333vw 8.611vw 8.333vw;
+    height: 10vw;
+    padding: 3vw 8.333vw 8.611vw 8.333vw;
     margin: 0 auto;
   }
 }

@@ -146,7 +146,7 @@ section.section__about{
         
         
         p{
-            text-align: justify;
+            text-align: left;
         }
         //@include element-boundary;
         @include for-desktop {
@@ -227,7 +227,7 @@ section.testimonials {
 }
 .testimonial__quote-mark--right{
     left: 83vw;
-    top: 228vw;
+    top: 235vw;
     @include for-desktop {
         left: 90vw;
         top: 36.5vw;
@@ -248,12 +248,12 @@ section.testimonials {
     }
 
     img {
-        width: 6.4vw;
-        clip-path: circle(3.2vw at 3.2vw 3.2vw);
+        width: 8vw;
+        clip-path: circle(4vw at 4vw 4vw);
 
         @include for-desktop {
-            width: 1.94vw;
-            clip-path: circle(.97vw at .97vw .97vw);
+            width: 5vw;
+            clip-path: circle(2.5vw at 2.5vw 2.5vw);
         }
     }
 
@@ -288,8 +288,8 @@ section.testimonials {
     color: $bodhi-dark-copy;
 
     @include for-desktop {
-        grid-template-columns: 1.94vw 9vw;
-        font-size: .7vw;
+        grid-template-columns: 5vw 9vw;
+        font-size: 1vw;
         column-gap: .7vw;
     }
 

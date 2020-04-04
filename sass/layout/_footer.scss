@@ -1,15 +1,15 @@
 footer {
     width: 100vw;
-    height: 250vw;
+    height: 80vw;
     background-color: $bodhi-dark-footer-background;
     color: #ffffff;
     font-family: $body-font;
-    padding: 62vw 5.333vw 12.8vw 5.333vw;
+    padding: 10vw 5.333vw 12.8vw 5.333vw;
     margin: 0 auto;
 
     @include for-desktop {
-        height: 38.88vw;
-        padding: 13.194vw 8.333vw 8.611vw 8.333vw;
+        height: 10vw;
+        padding: 3vw 8.333vw 8.611vw 8.333vw;
         margin:  0 auto;
     }
 
