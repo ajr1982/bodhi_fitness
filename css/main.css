@@ -561,7 +561,7 @@ section.testimonials .testimonial__quote-mark--right {
 
 header {
   width: 100vw;
-  padding-bottom: 1px;
+  padding-bottom: 5vw;
 }
 
 header .overlay {
@@ -777,7 +777,7 @@ header p {
 @media (min-width: 720px) {
   header p {
     width: 50.138vw;
-    margin: 0 auto 3vw auto;
+    margin: 6vw auto 3vw auto;
   }
 }
 
@@ -826,8 +826,8 @@ footer {
 
 @media (min-width: 720px) {
   footer {
-    height: 10vw;
-    padding: 3vw 8.333vw 8.611vw 8.333vw;
+    height: 9vw;
+    padding: 3vw 8.333vw 3vw 8.333vw;
     margin: 0 auto;
   }
 }

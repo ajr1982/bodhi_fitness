@@ -24,7 +24,8 @@
 
 header {
     width: 100vw;
-    padding-bottom: 1px;
+    
+    padding-bottom: 5vw;
 
     .overlay {
         width: 100vw;
@@ -226,7 +227,7 @@ header {
 
         @include for-desktop {
             width: 50.138vw;
-            margin: 0 auto 3vw auto;
+            margin: 6vw auto 3vw auto;
         }
     }
     img{
