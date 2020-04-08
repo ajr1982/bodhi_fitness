@@ -31,12 +31,12 @@ section.testimonials {
         position: absolute;
         font-size: 30vw;
         width: 10vw;
-        color: $bodhi-dark-copy;
+        color: $bodhi-green;
 
         @include for-desktop {
 
             width: 5vw;
-            color: $bodhi-green;
+            
             font-size: 12vw;
             line-height: 0;
 
@@ -55,7 +55,7 @@ section.testimonials {
 
     .testimonial__quote-mark--right {
         left: 83vw;
-        top: 220vw;
+        top: 235vw;
 
         @include for-desktop {
             left: 90vw;

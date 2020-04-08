@@ -420,13 +420,12 @@ section.testimonials .testimonial__quote-mark {
   position: absolute;
   font-size: 30vw;
   width: 10vw;
-  color: white;
+  color: #8cc63f;
 }
 
 @media (min-width: 720px) {
   section.testimonials .testimonial__quote-mark {
     width: 5vw;
-    color: #8cc63f;
     font-size: 12vw;
     line-height: 0;
   }
@@ -446,7 +445,7 @@ section.testimonials .testimonial__quote-mark--left {
 
 section.testimonials .testimonial__quote-mark--right {
   left: 83vw;
-  top: 220vw;
+  top: 235vw;
 }
 
 @media (min-width: 720px) {
