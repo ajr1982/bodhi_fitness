@@ -1,0 +1,71 @@
+section.section__about {
+    background-color: $bodhi-dark-testimonials-background;
+    padding: 5vw 0;
+
+    a {
+        text-decoration: underline;
+        font-size: $p-size-m;
+
+        color: $bodhi-green;
+
+
+        @include for-desktop {
+            font-size: $p-size-dt;
+
+        }
+    }
+
+    .two-col-block {
+        display: flex;
+        flex-direction: column;
+        margin: 2vw;
+        padding: 0 5vw;
+
+
+        @include for-desktop {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 2vw;
+
+        }
+    }
+
+    .two-col-block__column {
+        img {
+            width: 100%;
+            padding: 1vw;
+        }
+
+
+        p {
+            text-align: left;
+        }
+
+        //@include element-boundary;
+        @include for-desktop {
+
+            flex-basis: 900px;
+
+            img {
+                padding-left: 0;
+                padding-right: 5vw;
+            }
+        }
+    }
+
+    .two-col-block--reverse {
+        @include for-desktop {
+            flex-direction: row-reverse;
+
+            img {
+                padding-left: 5vw;
+                padding-right: 0;
+            }
+
+        }
+    }
+
+
+
+}

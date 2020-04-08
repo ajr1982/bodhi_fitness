@@ -1,0 +1,100 @@
+section.contact {
+    width: 100%;
+    padding: 3vw 0;
+    background-color: $bodhi-dark-testimonials-background;
+    height: 88vw;
+    @include for-desktop{
+    height: 30vw;
+    }
+    .contact_wrapper--mob{
+        display: block;
+        @include for-desktop{
+            display: none;
+        }
+    }
+    .contact_wrapper--dt{
+        display: none;
+        @include for-desktop{
+            display: block;
+        }
+    }
+
+
+    h1 {
+        color: $bodhi-green;
+        padding-bottom: 2vw;
+    }
+
+    .contact__contact-options {
+        width: 45%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex: 1;
+        flex-direction: column;
+        @include for-desktop{
+            align-items: center;
+            flex-direction: row;
+            width: 40%;
+        }
+
+        .contact__contact-options__option {
+            flex-basis: 13vw;
+            @include for-desktop{
+                flex-basis: 0vw;
+            }
+            a{
+                font-family: $body-font;
+            color: $bodhi-green;
+            font-size: 3vw;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            }
+            img {
+                display: inline-block;
+                width: 9vw;
+                padding-right: 2vw;
+                filter: brightness(0) saturate(100%) invert(78%) sepia(48%) saturate(599%) hue-rotate(34deg) brightness(87%) contrast(87%);
+                @include for-desktop{
+                width: 7vw;
+                padding-right: 0vw;
+                
+                }
+            }
+
+        }
+
+    }
+
+    .contact__contact-details {
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        top: 3vw;
+        left: 50%;
+        margin-left: -20%;
+        padding-bottom: 0vw;
+
+        div {
+            width: 100%;
+            font-family: $body-font;
+            color: $bodhi-green;
+            font-size: 2vw;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            opacity: 0;
+
+
+
+
+        }
+
+        
+    }
+
+}

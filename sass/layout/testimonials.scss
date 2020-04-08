@@ -1,0 +1,143 @@
+section.testimonials {
+    background-color: $bodhi-green;
+
+    position: relative;
+    width: 100%;
+    display: grid;
+    padding: 6.94vw;
+
+    justify-content: space-evenly;
+    align-items: baseline;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-areas: "quote-1""quote-2""quote-3";
+    row-gap: 10vw;
+
+
+
+    @include for-desktop {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "quote-1 quote-2 quote-3";
+        column-gap: 4vw;
+        row-gap: 4vw;
+        padding-bottom: 40vw;
+        background-image: url(../images/main.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .testimonial__quote-mark {
+        position: absolute;
+        font-size: 30vw;
+        width: 10vw;
+        color: $bodhi-dark-copy;
+
+        @include for-desktop {
+
+            width: 5vw;
+            color: $bodhi-green;
+            font-size: 12vw;
+            line-height: 0;
+
+        }
+    }
+
+    .testimonial__quote-mark--left {
+        left: 3vw;
+        top: 3vw;
+
+        @include for-desktop {
+            left: 5vw;
+            top: 10vw;
+        }
+    }
+
+    .testimonial__quote-mark--right {
+        left: 83vw;
+        top: 220vw;
+
+        @include for-desktop {
+            left: 90vw;
+            top: 36.5vw;
+        }
+    }
+}
+
+.testimonial {
+    @include rounded-raised-div;
+    background-color: $bodhi-dark-testimonials-background;
+    padding: 8vw;
+    flex: 1;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.7);
+    ;
+
+    @include for-desktop {
+        padding: 2vw;
+    }
+
+    img {
+        width: 8vw;
+        clip-path: circle(4vw at 4vw 4vw);
+
+        @include for-desktop {
+            width: 5vw;
+            clip-path: circle(2.5vw at 2.5vw 2.5vw);
+        }
+    }
+
+    p {
+        text-align: left;
+    }
+
+}
+
+.feature-area-aa {
+    grid-area: quote-1;
+
+}
+
+.feature-area-bb {
+    grid-area: quote-2;
+}
+
+.feature-area-cc {
+    grid-area: quote-3;
+}
+
+.profile {
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+    grid-template-columns: 6.4vw 44vw;
+    grid-template-areas: "e-pic e-name""e-pic e-role";
+    grid-row-gap: .5vw;
+    column-gap: 3vw;
+    color: $bodhi-dark-copy;
+
+    @include for-desktop {
+        grid-template-columns: 5vw 9vw;
+        font-size: 1vw;
+        column-gap: .7vw;
+    }
+
+
+
+    .endorser {
+        grid-area: e-name;
+        font-family: $heading-font;
+        align-self: end;
+        font-weight: 700;
+    }
+
+    .job-title {
+        grid-area: e-role;
+        font-family: $body-font;
+        align-self: start;
+    }
+
+    .profile-image {
+        grid-area: e-pic;
+    }
+}

@@ -5,8 +5,7 @@
     background-color: $bodhi-dark-intro-background;
     background-image: url(../images/kb-squat.jpg);
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%),url(../images/kb-squat.jpg);
-    //background-image: url(../images/bg-curvy-mobile.svg), linear-gradient(to bottom, $bodhi-dark-intro-background 68%, $bodhi-dark-main-background 68%);
-    // background-position: 0 60%;
+    
      background-repeat: no-repeat;
      background-size: contain;
     width: 100vw;
@@ -15,8 +14,7 @@
     z-index: -1;
 
     @include for-desktop {
-        // background-image: url(../images/bg-curvy-desktop.svg), linear-gradient(to bottom, $bodhi-dark-intro-background 73%, $bodhi-dark-main-background 73%);
-        // background-position: 0 60%;
+        
         height: 110vw;
 
     }
@@ -30,10 +28,10 @@ header {
     .overlay {
         width: 100vw;
         height: 100vh;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
-        background-color: $bodhi-dark-main-background;
+        background-color: $bodhi-dark-testimonials-background;
         opacity: 0;
 
         @include for-desktop {
@@ -43,12 +41,12 @@ header {
 
     nav {
         width: 100%;
-        height: 19.2vw;
+        height: 4vw;
         padding: 0 10.666vw;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        display: none;
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
+        // display: none;
 
 
         @include for-desktop {
@@ -59,13 +57,14 @@ header {
 
         }
 
-        ion-icon.close {
-            height: 3.5vw;
-            width: 3.5vw;
-            position: absolute;
-            fill: #ffffff;
-            top: 7.9vw;
-            left: 82.7vw;
+        #menu_kb, #menu_trigger {
+            
+            width: 8vw;
+            position: fixed;
+            z-index: 200;
+            top: 5.9vw;
+            left: 85vw;
+            
 
             @include for-desktop {
                 display: none;
@@ -74,12 +73,39 @@ header {
             }
         }
 
-        .stack {
-            position: relative;
-            width: 10vw;
-            height: 10vw;
-            z-index: 50;
+        #menu_trigger{
+            z-index: 900;
+            height: 8vw;
+            display: block;
+            cursor: pointer;
+            
+        }
+        ion-icon.close, ion-icon.menu {
+            height: 5vw;
+            width: 5vw;
+            position: fixed;
+            fill: #8cc63f;
+            top: 9.1vw;
+            left: 86.1vw;
+            z-index: 300;
 
+            @include for-desktop {
+                display: none;
+
+
+            }
+        }
+        ion-icon.close {
+            opacity: 0
+        };
+        .stack {
+            
+            width: 100vw;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 50;
+            
             @include for-desktop {
                 display: none;
 
@@ -87,87 +113,33 @@ header {
             }
 
             ul {
+                margin: 20vw auto 0 auto;
                 display: block;
+                z-index: 300;
+                padding-left: 0;
 
                 li {
-                    position: absolute;
+                    
                     opacity: 1;
-                    left: -15vw;
-                    text-align: right;
+                    width: 50vw;
+                    margin: 0 auto;
+                    text-align: center;
                     opacity: 0;
+                    font-size: 11vw;
+                    padding-top: 5vw;
+                    z-index: 300;
+                    width: 100vw;
+                    
                 }
 
-                .pos-1 {
-                    top: 0.8vw;
-                }
-
-                .pos-2 {
-                    top: 2vw;
-                }
-
-                .pos-3 {
-                    top: 4vw;
-                }
+                
 
             }
 
-            .dia {
-                position: absolute;
-                left: 0;
-                width: 100%;
-            }
-
-            .dia-3 {
-                top: 3.2vw;
-            }
-
-            .dia-2 {
-                top: 1.6vw;
-            }
-
-            .dia-1 {
-                top: 0px;
-            }
+            
         }
 
-        .theme {
-            // overflow: hidden;
-            //@include element-boundary;
-            height: 3.5vw;
-            width: 3.5vw;
-            position: relative;
-
-            @include for-desktop {
-                width: 2vw;
-                height: 2vw;
-            }
-
-            ion-icon {
-                position: absolute;
-                display: inline-block;
-                height: 3.5vw;
-                width: 3.5vw;
-
-                @include for-desktop {
-                    width: 2vw;
-                    height: 2vw;
-                }
-            }
-
-            ion-icon.light {
-                fill: #ffffff;
-                top: 0;
-                left: 0;
-            }
-
-            ion-icon.dark {
-                fill: #1c2431;
-                top: 0;
-                left: 0;
-                opacity: 0;
-
-            }
-        }
+        
 
         a {
             margin: 0;
@@ -184,17 +156,18 @@ header {
         }
 
         ul {
-            width: 49.066vw;
-            display: none;
-            justify-content: space-between;
+            // 
+             display: none;
+            // 
 
             @include for-desktop {
                 display: flex;
                 width: 20.833vw;
+                justify-content: space-between;
             }
 
             li {
-                font-size: 2.733vw;
+                // font-size: 2.733vw;
 
                 @include for-desktop {
                     font-size: 1.111vw;
@@ -221,7 +194,7 @@ header {
     //svg,
     //h1,
     p {
-        width: 82vw;
+        width: 83vw;
         margin: 9vw auto 8vw auto;
         text-align: center;
 
