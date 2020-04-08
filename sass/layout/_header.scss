@@ -2,7 +2,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: $bodhi-dark-intro-background;
+    background-color:  $bodhi-dark-intro-background;
     background-image: url(../images/kb-squat.jpg);
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%),url(../images/kb-squat.jpg);
     
@@ -14,9 +14,7 @@
     z-index: -1;
 
     @include for-desktop {
-        
         height: 110vw;
-
     }
 }
 
@@ -104,7 +102,7 @@ header {
             position: fixed;
             top: 0;
             left: 0;
-            z-index: 50;
+            z-index: -50;
             
             @include for-desktop {
                 display: none;

@@ -12,13 +12,39 @@
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-
+  <script>
+    var ua = window.navigator.userAgent;
+    var ieWrap = document.getElementById("#ie_wrap");
+    var modWrap = document.getElementById("#modern_wrap");
+    var msie = ua.indexOf('MSIE ');
+if (msie > 0) {
+  ieWrap.style.display = "block";
+  modWrap.style.display = "none";
+    }
+  </script>
 </head>
 
 <body >
-  
+  <div id="ie_wrap">
+    <img src="images/logo-with-bg.svg" alt="Bodhi Fitness">
+    <p>This site has been built for use with modern browsers. Consider using Chrome or Firefox for the full experience.</p>
+    <p>Bodhi Fitness can be reached at:</p>
+    <ul>
+      <li><p class="tel dt-only">+44 7814 350 414</p></li>
+      <li><a href="mailto:bodhifitnessuk@gmail.com">
+        <p class="email">bodhifitnessuk@gmail.com</p>
+      </a></li>
+      <li><a href="https://www.instagram.com/bodhifitness/" target="_blank"
+        class="social-links__icon social-links__icon--instagram">
+        <p class="insta">@BodhiFitness</p>
+      </a></li>
+      <li><a href="https://www.facebook.com/BodhiFitnessUK/" target="_blank">
+        <p class="facebook">@BodhiFitnessUK</p>
+      </a></li>
+    </ul>
+    </div>
+  <div id="modern_wrap">  
   <div class="header-bg"></div>
-
   <header>
     <div class="overlay"></div>
     <nav>
@@ -300,7 +326,7 @@
 
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   <script src="js/animation.js"></script>
-
+</div>
 </body>
 
 </html>

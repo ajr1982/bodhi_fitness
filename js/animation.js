@@ -22,6 +22,7 @@ var mobileMenu = new TimelineMax({
 });
 mobileMenu
     .set(".overlay", {zIndex: 10}, 0.1)
+    .set(".stack", {zIndex: 50}, 0.1)
     .fromTo(".overlay", .5, {opacity: 0}, {opacity: 0.9,ease: Power1.easeOut}, .2)
     .fromTo(close, .2, {opacity: 0}, {opacity: 1,ease: Power1.easeOut}, .3)
     .fromTo("#menu_icon", .2, {opacity: 1}, {opacity: 0,ease: Power1.easeOut}, .2)

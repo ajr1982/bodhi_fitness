@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -570,6 +569,80 @@ section.testimonials .testimonial__quote-mark--right {
   grid-area: e-pic;
 }
 
+#ie_wrap {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+
+#ie_wrap img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding: 5vw 0;
+}
+
+#ie_wrap ul {
+  padding: 0vw 0 5vw 9vw;
+  width: 35%;
+  margin: 0 auto;
+}
+
+#ie_wrap li {
+  text-align: left;
+}
+
+#ie_wrap li p {
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-left: 3vw;
+}
+
+#ie_wrap p.tel {
+  background-image: url(../images/icon-whatsapp.svg);
+  background-size: 6.1vw;
+}
+
+@media (min-width: 720px) {
+  #ie_wrap p.tel {
+    background-size: 1.3vw;
+  }
+}
+
+#ie_wrap p.email {
+  background-image: url(../images/icon-email.svg);
+  background-size: 6vw;
+}
+
+@media (min-width: 720px) {
+  #ie_wrap p.email {
+    background-size: 1.597vw;
+  }
+}
+
+#ie_wrap p.insta {
+  background-image: url(../images/icon-instagram.svg);
+  background-size: 5.859vw;
+}
+
+@media (min-width: 720px) {
+  #ie_wrap p.insta {
+    background-size: 1.3vw;
+  }
+}
+
+#ie_wrap p.facebook {
+  background-image: url(../images/icon-facebook.svg);
+  background-size: 5.9vw;
+}
+
+@media (min-width: 720px) {
+  #ie_wrap p.facebook {
+    background-size: 1.3vw;
+  }
+}
+
 .header-bg {
   position: absolute;
   top: 0;
@@ -673,7 +746,7 @@ header nav .stack {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 50;
+  z-index: -50;
 }
 
 @media (min-width: 720px) {
@@ -1004,67 +1077,5 @@ body,
 main {
   background-color: #ffffff;
   width: 100%;
-}
-
-.floating {
-  width: 93.6vw;
-  margin-left: 50vw;
-  position: absolute;
-  left: -46.8vw;
-  text-align: center;
-  padding: 4vw;
-  z-index: 999;
-  background-color: #000000;
-  border-radius: 20px;
-  -webkit-box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.1);
-          box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.1);
-}
-
-@media (min-width: 720px) {
-  .floating {
-    width: 65.55vw;
-    left: -32.775vw;
-  }
-}
-
-.floating input[type=submit],
-.floating input[type=text] {
-  border-radius: 200px;
-  width: 75.2vw;
-  height: 13.333vw;
-  display: block;
-  margin: 0 auto 4vw auto;
-  border: 0;
-}
-
-@media (min-width: 720px) {
-  .floating input[type=submit],
-  .floating input[type=text] {
-    width: 14.097vw;
-    height: 3.472vw;
-    display: inline-block;
-    margin: 2vw auto 0 auto;
-  }
-}
-
-.floating input[type=text] {
-  font-family: "Raleway", sans-serif;
-  font-size: 3vw;
-  padding-left: 6vw;
-  color: #999999;
-  border: none;
-}
-
-@media (min-width: 720px) {
-  .floating input[type=text] {
-    width: 33.611vw;
-    padding-left: 3vw;
-    font-size: 1.2vw;
-  }
-}
-
-.floating input[type=text]:focus {
-  border: none;
-  outline: none;
 }
 /*# sourceMappingURL=main.css.map */
