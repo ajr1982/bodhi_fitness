@@ -382,7 +382,7 @@ section.features .feature-area-d {
 }
 
 section.testimonials {
-  background-color: #8cc63f;
+  background-color: #000000;
   position: relative;
   width: 100%;
   display: -ms-grid;
@@ -872,7 +872,7 @@ header a {
 
 footer {
   width: 100vw;
-  height: 80vw;
+  height: 105vw;
   background-color: #000000;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
@@ -882,7 +882,7 @@ footer {
 
 @media (min-width: 720px) {
   footer {
-    height: 9vw;
+    height: 12vw;
     padding: 3vw 8.333vw 3vw 8.333vw;
     margin: 0 auto;
   }
@@ -924,14 +924,19 @@ footer .five-col-block {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
   }
+}
+
+footer .five-col-block__column img {
+  width: 60%;
+  margin: 0 auto;
 }
 
 @media (min-width: 720px) {
@@ -960,6 +965,7 @@ footer p {
   footer p {
     padding-left: 2.91vw;
     font-size: 1.111vw;
+    height: 3vw;
   }
 }
 
@@ -1007,16 +1013,16 @@ footer p.facebook {
   }
 }
 
-@media (min-width: 720px) {
-  footer .five-col-block__column--third,
-  footer .five-col-block__column--first {
-    margin-left: 5vw;
-  }
+footer .five-col-block__column--first {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
 }
 
-footer .five-col-block__column--second,
-footer .five-col-block__column--fourth {
-  padding-bottom: 0vw;
+@media (min-width: 720px) {
+  footer .five-col-block__column--fourth {
+    margin-left: 5vw;
+  }
 }
 
 footer .dt-only {

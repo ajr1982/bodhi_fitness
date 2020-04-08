@@ -9,44 +9,8 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="83"
    height="78"
-   version="1.1"
-   id="svg1355"
-   sodipodi:docname="icon-online-training.svg"
-   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)">
-  <metadata
-     id="metadata1361">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs1359" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     inkscape:document-rotation="0"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1687"
-     inkscape:window-height="939"
-     id="namedview1357"
-     showgrid="false"
-     inkscape:zoom="4.025641"
-     inkscape:cx="-13.273885"
-     inkscape:cy="39"
-     inkscape:window-x="0"
-     inkscape:window-y="23"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="g116" />
+   >
+  
   <g
      fill="none"
      fill-rule="evenodd"
