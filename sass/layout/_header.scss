@@ -31,6 +31,7 @@ header {
         left: 0;
         background-color: $bodhi-dark-testimonials-background;
         opacity: 0;
+        z-index: -50;
 
         @include for-desktop {
             display: none;
