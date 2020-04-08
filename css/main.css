@@ -576,10 +576,10 @@ section.testimonials .testimonial__quote-mark--right {
 }
 
 #ie_wrap img {
-  width: 50%;
+  width: 30%;
   display: block;
   margin: 0 auto;
-  padding: 5vw 0;
+  padding: 2vw 0;
 }
 
 #ie_wrap ul {
