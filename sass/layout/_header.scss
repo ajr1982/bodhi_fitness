@@ -7,7 +7,7 @@
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%),url(../images/kb-squat.jpg);
     
      background-repeat: no-repeat;
-     background-size: contain;
+     background-size: 103vw;
     width: 100vw;
     height: 250vw;
     padding-bottom: 1px;
@@ -15,6 +15,7 @@
 
     @include for-desktop {
         height: 110vw;
+        background-size: contain;
     }
 }
 
@@ -206,9 +207,9 @@ header {
         width: 100%;
     }
     .header__logo-container{
-        width: 81.333vw;
+        width: 75vw;
         margin: 1vw auto 16vw auto;
-        text-align: justify;
+        
 
         @include for-desktop {
             width: 50.138vw;
