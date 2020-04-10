@@ -6,14 +6,14 @@ section.features {
     align-items: baseline;
     text-align: center;
     grid-template-columns: 1fr;
-    grid-template-areas: "heading""onetoone""group""online""plans";
+    grid-template-areas: "heading""online""onetoone""group""plans";
     grid-row-gap: 10vw;
 
 
 
     @include for-desktop {
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: "heading heading""onetoone group""online plans";
+        grid-template-areas: "heading heading""online onetoone""group plans";
         grid-column-gap: 4vw;
         grid-row-gap: 4vw;
     }
