@@ -70,4 +70,14 @@ section.features {
         grid-area: plans;
     }
 
+    .mute{
+        opacity:.2
+    }
+    .strike{
+        text-decoration: line-through;
+    }
+    .discount{
+        color:red;
+    }
+
 }

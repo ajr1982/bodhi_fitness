@@ -1,0 +1,46 @@
+#covid19 {
+    background-color: #8cc63f;
+    width: 100%;
+    display: grid;
+    padding: 5vw 6.94vw 5vw 6.94vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-areas: "g1 g2 g4" "g3 g3 g3";
+    grid-row-gap: 3vw;
+
+
+
+    @include for-desktop {
+        padding: 3vw 6.94vw 3vw 6.94vw;
+        grid-template-columns: 1fr 6fr 1fr;
+        grid-template-areas: "g1 g2 g4" "g1 g3 g4";
+        grid-column-gap: 3vw;
+        grid-row-gap: .5vw;
+    }
+    h1, p{
+        color: #000000;
+        text-align: center;
+        margin: .5vw 0;
+    }
+    span{
+        font-weight: bolder;
+    }
+    img{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .grid-1{
+        grid-area: g1;
+    }
+    .grid-2{
+        grid-area: g2;
+    }
+    .grid-3{
+        grid-area: g3;
+    }
+    .grid-4{
+        grid-area: g4;
+    }
+}
