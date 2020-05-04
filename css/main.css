@@ -308,7 +308,7 @@ section.features {
   text-align: center;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-      grid-template-areas: "heading" "online" "onetoone" "group" "plans";
+      grid-template-areas: "heading" "online" "plans" "onetoone" "group";
   grid-row-gap: 10vw;
 }
 
@@ -316,7 +316,7 @@ section.features {
   section.features {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: "heading heading" "online onetoone" "group plans";
+        grid-template-areas: "heading heading" "online plans" "onetoone group";
     grid-column-gap: 4vw;
     grid-row-gap: 4vw;
   }
@@ -358,13 +358,13 @@ section.features img {
 }
 
 section.features .feature-area-a {
-  -ms-grid-row: 3;
+  -ms-grid-row: 4;
   -ms-grid-column: 1;
   grid-area: onetoone;
 }
 
 section.features .feature-area-b {
-  -ms-grid-row: 4;
+  -ms-grid-row: 5;
   -ms-grid-column: 1;
   grid-area: group;
 }
@@ -376,7 +376,7 @@ section.features .feature-area-c {
 }
 
 section.features .feature-area-d {
-  -ms-grid-row: 5;
+  -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: plans;
 }
