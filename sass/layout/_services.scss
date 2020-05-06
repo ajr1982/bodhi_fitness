@@ -6,14 +6,14 @@ section.features {
     align-items: baseline;
     text-align: center;
     grid-template-columns: 1fr;
-    grid-template-areas: "heading""online""plans""onetoone""group";
+    grid-template-areas: "heading""online""plans""spine""onetoone""group";
     grid-row-gap: 10vw;
 
 
 
     @include for-desktop {
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: "heading heading""online plans""onetoone group";
+        grid-template-areas: "heading heading""online plans""spine spine""onetoone group";
         grid-column-gap: 4vw;
         grid-row-gap: 4vw;
     }
@@ -38,6 +38,12 @@ section.features {
     .features__feature-right {
         @include for-desktop {
             margin-right: 10vw;
+        }
+
+    }
+    .features__feature-middle{
+        @include for-desktop {
+            margin: 0 auto;
         }
 
     }
@@ -68,6 +74,9 @@ section.features {
 
     .feature-area-d {
         grid-area: plans;
+    }
+    .feature-area-e {
+        grid-area: spine;
     }
 
     .mute{

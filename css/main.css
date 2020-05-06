@@ -308,7 +308,7 @@ section.features {
   text-align: center;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-      grid-template-areas: "heading" "online" "plans" "onetoone" "group";
+      grid-template-areas: "heading" "online" "plans" "spine" "onetoone" "group";
   grid-row-gap: 10vw;
 }
 
@@ -316,7 +316,7 @@ section.features {
   section.features {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: "heading heading" "online plans" "onetoone group";
+        grid-template-areas: "heading heading" "online plans" "spine spine" "onetoone group";
     grid-column-gap: 4vw;
     grid-row-gap: 4vw;
   }
@@ -346,6 +346,12 @@ section.features h3 {
   }
 }
 
+@media (min-width: 720px) {
+  section.features .features__feature-middle {
+    margin: 0 auto;
+  }
+}
+
 section.features img {
   width: 24vw;
   margin: 0 auto;
@@ -358,13 +364,13 @@ section.features img {
 }
 
 section.features .feature-area-a {
-  -ms-grid-row: 4;
+  -ms-grid-row: 5;
   -ms-grid-column: 1;
   grid-area: onetoone;
 }
 
 section.features .feature-area-b {
-  -ms-grid-row: 5;
+  -ms-grid-row: 6;
   -ms-grid-column: 1;
   grid-area: group;
 }
@@ -379,6 +385,12 @@ section.features .feature-area-d {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: plans;
+}
+
+section.features .feature-area-e {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: spine;
 }
 
 section.features .mute {
