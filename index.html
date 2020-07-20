@@ -1,226 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-166762701-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "UA-166762701-1");
-    </script>
-    <title>Bodhi Fitness | Christopher Williams</title>
-    <meta
-      name="keywords"
-      content="personal trainer, personal training, london, kettlebell, Kettlebells, fitness, health, mindfulness, wellbeing, bodhi, Bodhi Fitness, Christopher Williams"
-    />
-    <meta
-      name="description"
-      content="South London based Personal Trainer offering one-to-one, group and online training. Specialising in functional fitness through kettlebell workouts."
-    />
-    <meta charset="UTF-8" />
-    <meta name="robots" content="index,follow" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166762701-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/icon-palmtree.svg"
-    />
-    <link rel="stylesheet" href="css/main.min.css" />
+    gtag("config", "UA-166762701-1");
+  </script>
+  <title>Bodhi Fitness | Christopher Williams</title>
+  <meta name="keywords"
+    content="personal trainer, personal training, london, kettlebell, Kettlebells, fitness, health, mindfulness, wellbeing, bodhi, Bodhi Fitness, Christopher Williams" />
+  <meta name="description"
+    content="South London based Personal Trainer offering one-to-one, group and online training. Specialising in functional fitness through kettlebell workouts." />
+  <meta charset="UTF-8" />
+  <meta name="robots" content="index,follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule=""
-      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
-    ></script>
-  </head>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/icon-palmtree.svg" />
+  <link rel="stylesheet" href="css/main.min.css" />
 
-  <body>
-    <div id="ie_wrap">
-      <img src="images/logo-with-bg.svg" alt="Bodhi Fitness" />
-      <p>
-        This site has been built for use with modern browsers. Consider using
-        Chrome or Firefox for the full experience.
-      </p>
-      <p>Bodhi Fitness can be reached at:</p>
-      <ul>
-        <li>
-          <p class="tel dt-only">+44 7814 350 414</p>
-        </li>
-        <li>
-          <a href="mailto:bodhifitnessuk@gmail.com">
-            <p class="email">bodhifitnessuk@gmail.com</p>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com/bodhifitness/"
-            target="_blank"
-            class="social-links__icon social-links__icon--instagram"
-          >
-            <p class="insta">@BodhiFitness</p>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/BodhiFitnessUK/" target="_blank">
-            <p class="facebook">@BodhiFitnessUK</p>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div id="modern_wrap">
-      <div class="header-bg"></div>
-      <header>
-        <div class="overlay"></div>
-        <nav>
-          <!--MOBILE NAV-->
-          <div id="menu_trigger"></div>
-          <ion-icon class="close" id="close" name="close"></ion-icon>
-          <ion-icon class="menu" id="menu_icon" name="menu"></ion-icon>
-          <img src="images/icon-kb.svg" id="menu_kb" alt="Menu icon" />
-          <div id="menu" class="stack">
-            <ul>
-              <li class="pos">
-                <a href="#contact" onclick="toggleMenu()">Contact</a>
-              </li>
-              <li class="pos">
-                <a href="#services" onclick="toggleMenu()">Services</a>
-              </li>
-              <li class="pos">
-                <a href="#about" onclick="toggleMenu()">About</a>
-              </li>
-              <li class="pos">
-                <a href="#testimonials" onclick="toggleMenu()">Testimonials</a>
-              </li>
-            </ul>
-          </div>
-          <!--DESKTOP NAV-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+  <div id="ie_wrap">
+    <img src="images/logo-with-bg.svg" alt="Bodhi Fitness" />
+    <p>
+      This site has been built for use with modern browsers. Consider using
+      Chrome or Firefox for the full experience.
+    </p>
+    <p>Bodhi Fitness can be reached at:</p>
+    <ul>
+      <li>
+        <p class="tel dt-only">+44 7814 350 414</p>
+      </li>
+      <li>
+        <a href="mailto:bodhifitnessuk@gmail.com">
+          <p class="email">bodhifitnessuk@gmail.com</p>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/bodhifitness/" target="_blank"
+          class="social-links__icon social-links__icon--instagram">
+          <p class="insta">@BodhiFitness</p>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/BodhiFitnessUK/" target="_blank">
+          <p class="facebook">@BodhiFitnessUK</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div id="modern_wrap">
+    <div class="header-bg"></div>
+    <header>
+      <div class="overlay"></div>
+      <nav>
+        <!--MOBILE NAV-->
+        <div id="menu_trigger"></div>
+        <ion-icon class="close" id="close" name="close"></ion-icon>
+        <ion-icon class="menu" id="menu_icon" name="menu"></ion-icon>
+        <img src="images/icon-kb.svg" id="menu_kb" alt="Menu icon" />
+        <div id="menu" class="stack">
           <ul>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
+            <li class="pos">
+              <a href="#contact" onclick="toggleMenu()">Contact</a>
+            </li>
+            <li class="pos">
+              <a href="#services" onclick="toggleMenu()">Services</a>
+            </li>
+            <li class="pos">
+              <a href="#about" onclick="toggleMenu()">About</a>
+            </li>
+            <li class="pos">
+              <a href="#testimonials" onclick="toggleMenu()">Testimonials</a>
+            </li>
           </ul>
-        </nav>
-        <div class="header__logo-container">
-          <img src="images/logo-with-bg.svg" alt="Bodhi Fitness" />
+        </div>
+        <!--DESKTOP NAV-->
+        <ul>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </nav>
+      <div class="header__logo-container">
+        <img src="images/logo-with-bg.svg" alt="Bodhi Fitness" />
+      </div>
+
+      <p>
+        The word ‘Bodhi’ traditionally translates into English as
+        enlightenment, but the literal meaning is ‘awakening’. Everyone has a
+        story or a reason for pursuing exercise. Sometimes we just need that
+        extra guidance and advice to take the first step to awaken our fitness
+        journey. At Bodhi Fitness we achieve this through tailoring your
+        personal training to your specific goals, or simply giving you
+        encouragement & belief to get you through the session! We are in this
+        together. There will be hard work ahead, but ultimately we will have
+        fun with it and enjoy the process of creating a healthier you.
+      </p>
+    </header>
+
+    <main>
+      <a id="contact"></a>
+      <section class="contact" aria-label="Contact">
+        <div class="contact_wrapper--mob">
+          <h1>Start your fitness journey - Enquire now!</h1>
+          <div class="contact__contact-options">
+            <div class="contact__contact-options__option">
+              <a href="https://wa.me/447814350414">
+                <img src="images/icon-whatsapp.svg" />
+                +44 7814 350 414
+              </a>
+            </div>
+            <div class="contact__contact-options__option">
+              <a href="mailto:bodhifitnessuk@gmail.com">
+                <img src="images/icon-email.svg" />
+                <span>bodhifitnessuk@gmail.com</span>
+              </a>
+            </div>
+            <div class="contact__contact-options__option">
+              <a href="https://www.instagram.com/bodhifitness/" target="_blank">
+                <img src="images/icon-instagram.svg" />
+                @BodhiFitness
+              </a>
+            </div>
+            <div class="contact__contact-options__option">
+              <a href="https://www.facebook.com/BodhiFitnessUK/" target="_blank">
+                <img src="images/icon-facebook.svg" />
+                @BodhiFitnessUK
+              </a>
+            </div>
+          </div>
         </div>
 
-        <p>
-          The word ‘Bodhi’ traditionally translates into English as
-          enlightenment, but the literal meaning is ‘awakening’. Everyone has a
-          story or a reason for pursuing exercise. Sometimes we just need that
-          extra guidance and advice to take the first step to awaken our fitness
-          journey. At Bodhi Fitness we achieve this through tailoring your
-          personal training to your specific goals, or simply giving you
-          encouragement & belief to get you through the session! We are in this
-          together. There will be hard work ahead, but ultimately we will have
-          fun with it and enjoy the process of creating a healthier you.
-        </p>
-      </header>
-
-      <main>
-        <a id="contact"></a>
-        <section class="contact" aria-label="Contact">
-          <div class="contact_wrapper--mob">
-            <h1>Start your fitness journey - Enquire now!</h1>
-            <div class="contact__contact-options">
-              <div class="contact__contact-options__option">
-                <a href="https://wa.me/447814350414">
-                  <img src="images/icon-whatsapp.svg" />
-                  +44 7814 350 414
-                </a>
-              </div>
-              <div class="contact__contact-options__option">
-                <a href="mailto:bodhifitnessuk@gmail.com">
-                  <img src="images/icon-email.svg" />
-                  <span>bodhifitnessuk@gmail.com</span>
-                </a>
-              </div>
-              <div class="contact__contact-options__option">
-                <a
-                  href="https://www.instagram.com/bodhifitness/"
-                  target="_blank"
-                >
-                  <img src="images/icon-instagram.svg" />
-                  @BodhiFitness
-                </a>
-              </div>
-              <div class="contact__contact-options__option">
-                <a
-                  href="https://www.facebook.com/BodhiFitnessUK/"
-                  target="_blank"
-                >
-                  <img src="images/icon-facebook.svg" />
-                  @BodhiFitnessUK
-                </a>
-              </div>
+        <div class="contact_wrapper--dt">
+          <h1>Start your fitness journey - Enquire now!</h1>
+          <div class="contact__contact-options">
+            <div id="contact-option__tel" class="contact__contact-options__option">
+              <img src="images/icon-whatsapp.svg" />
+            </div>
+            <div id="contact-option__email" class="contact__contact-options__option">
+              <a href="mailto:bodhifitnessuk@gmail.com">
+                <img src="images/icon-email.svg" />
+              </a>
+            </div>
+            <div id="contact-option__insta" class="contact__contact-options__option">
+              <a href="https://www.instagram.com/bodhifitness/" target="_blank">
+                <img src="images/icon-instagram.svg" />
+              </a>
+            </div>
+            <div id="contact-option__facebook" class="contact__contact-options__option">
+              <a href="https://www.facebook.com/BodhiFitnessUK/" target="_blank">
+                <img src="images/icon-facebook.svg" />
+              </a>
             </div>
           </div>
-
-          <div class="contact_wrapper--dt">
-            <h1>Start your fitness journey - Enquire now!</h1>
-            <div class="contact__contact-options">
-              <div
-                id="contact-option__tel"
-                class="contact__contact-options__option"
-              >
-                <img src="images/icon-whatsapp.svg" />
-              </div>
-              <div
-                id="contact-option__email"
-                class="contact__contact-options__option"
-              >
-                <a href="mailto:bodhifitnessuk@gmail.com">
-                  <img src="images/icon-email.svg" />
-                </a>
-              </div>
-              <div
-                id="contact-option__insta"
-                class="contact__contact-options__option"
-              >
-                <a
-                  href="https://www.instagram.com/bodhifitness/"
-                  target="_blank"
-                >
-                  <img src="images/icon-instagram.svg" />
-                </a>
-              </div>
-              <div
-                id="contact-option__facebook"
-                class="contact__contact-options__option"
-              >
-                <a
-                  href="https://www.facebook.com/BodhiFitnessUK/"
-                  target="_blank"
-                >
-                  <img src="images/icon-facebook.svg" />
-                </a>
-              </div>
-            </div>
-            <div class="contact__contact-details">
-              <div id="contact-details__tel">+44 7814 350 414</div>
-              <div id="contact-details__email">bodhifitnessuk@gmail.com</div>
-              <div id="contact-details__insta">@BodhiFitness</div>
-              <div id="contact-details__facebook">@BodhiFitnessUK</div>
-            </div>
+          <div class="contact__contact-details">
+            <div id="contact-details__tel">+44 7814 350 414</div>
+            <div id="contact-details__email">bodhifitnessuk@gmail.com</div>
+            <div id="contact-details__insta">@BodhiFitness</div>
+            <div id="contact-details__facebook">@BodhiFitnessUK</div>
           </div>
-        </section>
-        <a id="services"></a>
-        <!-- <div id="covid19">
+        </div>
+      </section>
+      <a id="services"></a>
+      <!-- <div id="covid19">
           <img class="grid-1" src="images/biohazard.svg" alt="biohazard icon" />
           <h1 class="grid-2">Covid-19 Update</h1>
           <div class="grid-3">
@@ -233,247 +189,240 @@
           </div>
           <img class="grid-4" src="images/biohazard.svg" alt="biohazard icon" />
         </div> -->
-        <section class="features" aria-label="Features">
-          <h1>Bodhi Fitness offer the following services:</h1>
-          <div class="features__feature-left feature-area-a mute">
-            <img src="images/icon-one-to-one.svg" alt="One to one icon" />
-            <h3>1 to 1 Personal training</h3>
+      <section class="features" aria-label="Features">
+        <h1>Bodhi Fitness offer the following services:</h1>
+        <div class="feature-area-a">
+          <img src="images/icon-one-to-one.svg" alt="One to one icon" />
+          <h3>1 to 1 Personal training</h3>
+          <p>
+            Tailored Kettlebell workout<br />Home visit or local park<br /><br />45
+            minute session £35<br />8 x 45 minutes £250
+          </p>
+        </div>
+        <div class="features__feature-right feature-area-b">
+          <img src="images/icon-group-conditioning.svg" alt="Group conditioning icon" />
+          <h3>Group Conditioning</h3>
+          <p>
+            45 minute Kettlebell workout<br />Hosted at local park<br />Small
+            groups (Max 5 people)</p>
+          <p>
+            <strong>Groups of 3:</strong><br />Pay as you go
+            <span>£45</span>
+            <!-- <span class="discount">£15</span> -->
+            per session<br />
+            5 sessions for <span>£200</span>
+            <!-- <span class="discount">£80</span> -->
+          </p>
+          <p>
+            <strong>Groups of 5:</strong><br />
+            Pay as you go <span>£60</span>
+            <!-- <span class="discount">£20</span> -->
+            per session<br />
+            5 sessions for <span>£250</span>
+            <!-- <span class="discount">£100</span> -->
+          </p>
+        </div>
+        <div class="features__feature-left feature-area-c">
+          <img src="images/icon-online-training.svg" alt="Online training icon" />
+          <h3>Online training</h3>
+          <p>
+            30 minute personal training session<br />Hosted via Zoom app
+          </p>
+          <p>
+            <strong>Individual:</strong><br />Pay as you go
+            <span>£20</span>
+            <!-- <span class="discount">£15</span> -->
+            per session<br />
+            6 sessions for <span>£100</span>
+            <!-- <span class="discount">£80</span> -->
+          </p>
+          <p>
+            <strong>Buddy up! Two participants:</strong><br />
+            Pay as you go <span>£25</span>
+            <!-- <span class="discount">£20</span> -->
+            per session<br />
+            6 sessions for <span>£125</span>
+            <!-- <span class="discount">£100</span> -->
+          </p>
+        </div>
+        <div class="features__feature-left feature-area-d">
+          <img src="images/icon-plans.svg" alt="Training plans icon" />
+          <h3>Workout plans</h3>
+          <p>
+            Self guided workout plan<br />Tailored to individual
+            needs/goals<br />Instructional videos for each exercise</p>
+          <p>7 day plan £25 <br />14 day plan £45
+          </p>
+        </div>
+        <div class="features__feature-right feature-area-e">
+          <img src="images/icon-back.svg" alt="spinal cord by Vectors Market from the Noun Project" />
+          <h3>
+            <!-- <span class="discount">*NEW*</span> -->
+            Lower back & core<br>stengthening course
+          </h3>
+          <p>
+            6 week online course<br />2 x 30 minute sessions per week<br />Hosted
+            via Zoom app<br />Equipment needed: Swiss ball & exercise mat</p>
+          <!-- Introductory offer <span class="discount">£150</span> -->
+          <p>
+            <strong>£200 per person</strong>
+          </p>
+        </div>
+      </section>
+      <section class="section__about" aria-label="About">
+        <a id="about"></a>
+        <div class="two-col-block">
+          <div class="two-col-block__column">
+            <img src="images/chris-swing.png" alt="Chris Williams" />
+          </div>
+          <div class="two-col-block__column">
             <p>
-              Tailored Kettlebell workout.<br />Home visit or local park.<br />45
-              minute session £35<br />8 x 45 minutes £250
+              Hi, I'm Chris. Since gaining my degree in Sport & Leisure
+              Management and qualifying as a personal trainer, I have gained
+              invaluable experience in a wide range of corporate and
+              commercial fitness facilities. Co-founding a beach bootcamp in
+              my home town with a couple of friends gave me the confidence and
+              inspiration to continue with my own adventure. From Balearic
+              beaches as part of the team at The Workout Club in Ibiza, to
+              providing exercise therapy within the mental health & wellbeing
+              sector of the NHS. My current role as a corporate fitness
+              manager and personal trainer has further expanded my knowledge
+              of individual and group programming. Bodhi Fitness was born of a
+              desire to provide my own brand of training and put people on the
+              path to fun, sustainable fitness.
             </p>
-          </div>
-          <div class="features__feature-right feature-area-b mute">
-            <img
-              src="images/icon-group-conditioning.svg"
-              alt="Group conditioning icon"
-            />
-            <h3>Group Conditioning</h3>
-            <p>
-              45 minute Kettlebell workout<br />Hosted at local park<br />Small
-              groups (Max 5 people)<br />Groups of 3: £45/session or £200 x5
-              sessions<br />Groups of 5: £60/session or £250 x5 sessions
-            </p>
-          </div>
-          <div class="features__feature-left feature-area-c">
-            <img
-              src="images/icon-online-training.svg"
-              alt="Online training icon"
-            />
-            <h3>Online training</h3>
-            <p>
-              30 minute personal training session,<br />hosted via Zoom app.
-            </p>
-            <p>
-              <strong>Individual:</strong><br />Pay as you go
-              <span>£20</span>
-              <!-- <span class="discount">£15</span> -->
-              per session<br />
-              6 sessions for <span>£100</span>
-              <!-- <span class="discount">£80</span> -->
-            </p>
-            <p>
-              <strong>Buddy up! Two participants:</strong><br />
-              Pay as you go <span>£25</span>
-              <!-- <span class="discount">£20</span> -->
-              per session<br />
-              6 sessions for <span>£125</span>
-              <!-- <span class="discount">£100</span> -->
-            </p>
-          </div>
-          <div class="feature-area-d">
-            <img src="images/icon-plans.svg" alt="Training plans icon" />
-            <h3>Workout plans</h3>
-            <p>
-              Self guided workout plan<br />Tailored to individual
-              needs/goals<br />Instructional videos for each exercise<br /><br />7
-              day plan £25 <br />14 day plan £45
-            </p>
-          </div>
-          <div class="features__feature-right feature-area-e">
-            <img
-              src="images/icon-back.svg"
-              alt="spinal cord by Vectors Market from the Noun Project"
-            />
-            <h3>
-              <!-- <span class="discount">*NEW*</span> -->
-              Lower back & core stengthening course
-            </h3>
-            <p>
-              6 week online course<br />2 x 30 minute sessions per week<br />Hosted
-              via Zoom app<br />Equipment needed: Swiss ball & exercise mat<br /><br />
-              <!-- Introductory offer <span class="discount">£150</span> -->
-              <strong>£200 per person</strong>
-            </p>
-          </div>
-        </section>
-        <section class="section__about" aria-label="About">
-          <a id="about"></a>
-          <div class="two-col-block">
-            <div class="two-col-block__column">
-              <img src="images/chris-swing.png" alt="Chris Williams" />
-            </div>
-            <div class="two-col-block__column">
-              <p>
-                Hi, I'm Chris. Since gaining my degree in Sport & Leisure
-                Management and qualifying as a personal trainer, I have gained
-                invaluable experience in a wide range of corporate and
-                commercial fitness facilities. Co-founding a beach bootcamp in
-                my home town with a couple of friends gave me the confidence and
-                inspiration to continue with my own adventure. From Balearic
-                beaches as part of the team at The Workout Club in Ibiza, to
-                providing exercise therapy within the mental health & wellbeing
-                sector of the NHS. My current role as a corporate fitness
-                manager and personal trainer has further expanded my knowledge
-                of individual and group programming. Bodhi Fitness was born of a
-                desire to provide my own brand of training and put people on the
-                path to fun, sustainable fitness.
-              </p>
-            </div>
-          </div>
-          <div class="two-col-block two-col-block--reverse">
-            <div class="two-col-block__column">
-              <img src="images/med.png" alt="Meditation" />
-            </div>
-            <div class="two-col-block__column">
-              <p>
-                My fundamental belief is that health and fitness should be
-                enjoyable and not complicated! I try to emphasise this in
-                everything I do, whether it is through personal training or
-                mindset techniques. I have a keen interest in mindfulness &
-                self-development and believe this is key to create a strong
-                mindset to achieve your goals. I am a Crossfit enthusiast and
-                Level Two Crossfit Coach. The workouts incorporate a lot of
-                functional movements, which are the main movements of life!
-              </p>
-            </div>
-          </div>
-          <div class="two-col-block">
-            <div class="two-col-block__column">
-              <img src="images/kb-park.png" alt="Kettlebells" />
-            </div>
-            <div class="two-col-block__column">
-              <p>
-                Here at Bodhi Fitness, Kettlebells are our weapon of choice.
-                Kettlebells are fantastic at improving overall strength as well
-                as power, flexibility, balance and coordination. They are ideal
-                for fat burning as most exercises incorporate a range of muscle
-                groups, this in turn works the body harder helping create a
-                strong healthy physique. The kettlebell is versatile - a single
-                one is all you need for a great workout and amazing results.
-              </p>
-            </div>
-          </div>
-        </section>
-        <a id="testimonials"></a>
-        <section class="testimonials" aria-label="Testimaonials">
-          <span class="testimonial__quote-mark testimonial__quote-mark--left"
-            >&ldquo;</span
-          >
-          <span class="testimonial__quote-mark testimonial__quote-mark--right"
-            >&rdquo;</span
-          >
-          <div class="testimonial feature-area-aa">
-            <p class="testimonial__quote">
-              What I achieved with Chris's help was more than just toning up and
-              losing weight, it made me love working out. My overall fitness,
-              strength and wellbeing improved and that's all down to Chris's
-              hard work and dedication.<br /><br />
-            </p>
-            <div class="profile">
-              <img class="profile-image" src="images/vicky.jpg" alt="Vicky" />
-              <span class="endorser">Vicky</span>
-              <span class="job-title">Physiotherapist</span>
-            </div>
-          </div>
-          <div class="testimonial feature-area-bb">
-            <p class="testimonial__quote">
-              I now understand better the aim of each exercise, how to maximize
-              the benefits of my gym sessions, and have confidence to try out
-              new exercises and equipment.  Chris is careful to emphasise good
-              form and technique, avoiding risk of injury
-            </p>
-            <div class="profile">
-              <img
-                class="profile-image"
-                src="images/maurice.jpg"
-                alt="Maurice"
-              />
-              <span class="endorser">Maurice</span>
-              <span class="job-title">Retired</span>
-            </div>
-          </div>
-          <div class="testimonial feature-area-cc">
-            <p class="testimonial__quote">
-              Chris has a great way of making exercise fun, he even manages to
-              sneak in cardio without me noticing! I would 100% recommend Chris
-              as a PT whatever your goal might be. He is willing to put in the
-              hard work needed to help you on your journey to great fitness.
-            </p>
-            <div class="profile">
-              <img class="profile-image" src="images/lucy.jpg" alt="Lucy" />
-              <span class="endorser">Lucy</span>
-              <span class="job-title">Administrator</span>
-            </div>
-          </div>
-        </section>
-      </main>
-      <footer>
-        <div class="five-col-block">
-          <div class="five-col-block__column five-col-block__column--first">
-            <img src="images/logo-with-bg.svg" alt="Bodhi Fitness" />
-          </div>
-          <div class="five-col-block__column five-col-block__column--second">
-            <a class="mob-only" href="https://wa.me/447814350414">
-              <p class="tel">+44 7814 350 414</p>
-            </a>
-            <p class="tel dt-only">+44 7814 350 414</p>
-          </div>
-          <div class="five-col-block__column five-col-block__column--third">
-            <a href="mailto:bodhifitnessuk@gmail.com">
-              <p class="email">bodhifitnessuk@gmail.com</p>
-            </a>
-          </div>
-          <div class="five-col-block__column five-col-block__column--fourth">
-            <a
-              href="https://www.instagram.com/bodhifitness/"
-              target="_blank"
-              class="social-links__icon social-links__icon--instagram"
-            >
-              <p class="insta">@BodhiFitness</p>
-            </a>
-          </div>
-          <div class="five-col-block__column five-col-block__column--fifth">
-            <a
-              href="https://www.facebook.com/BodhiFitnessUK/"
-              target="_blank"
-              class="social-links__icon social-links__icon--facebook"
-            >
-              <p class="facebook">@BodhiFitnessUK</p>
-            </a>
           </div>
         </div>
-      </footer>
-    </div>
+        <div class="two-col-block two-col-block--reverse">
+          <div class="two-col-block__column">
+            <img src="images/med.png" alt="Meditation" />
+          </div>
+          <div class="two-col-block__column">
+            <p>
+              My fundamental belief is that health and fitness should be
+              enjoyable and not complicated! I try to emphasise this in
+              everything I do, whether it is through personal training or
+              mindset techniques. I have a keen interest in mindfulness &
+              self-development and believe this is key to create a strong
+              mindset to achieve your goals. I am a Crossfit enthusiast and
+              Level Two Crossfit Coach. The workouts incorporate a lot of
+              functional movements, which are the main movements of life!
+            </p>
+          </div>
+        </div>
+        <div class="two-col-block">
+          <div class="two-col-block__column">
+            <img src="images/kb-park.png" alt="Kettlebells" />
+          </div>
+          <div class="two-col-block__column">
+            <p>
+              Here at Bodhi Fitness, Kettlebells are our weapon of choice.
+              Kettlebells are fantastic at improving overall strength as well
+              as power, flexibility, balance and coordination. They are ideal
+              for fat burning as most exercises incorporate a range of muscle
+              groups, this in turn works the body harder helping create a
+              strong healthy physique. The kettlebell is versatile - a single
+              one is all you need for a great workout and amazing results.
+            </p>
+          </div>
+        </div>
+      </section>
+      <a id="testimonials"></a>
+      <section class="testimonials" aria-label="Testimaonials">
+        <span class="testimonial__quote-mark testimonial__quote-mark--left">&ldquo;</span>
+        <span class="testimonial__quote-mark testimonial__quote-mark--right">&rdquo;</span>
+        <div class="testimonial feature-area-aa">
+          <p class="testimonial__quote">
+            What I achieved with Chris's help was more than just toning up and
+            losing weight, it made me love working out. My overall fitness,
+            strength and wellbeing improved and that's all down to Chris's
+            hard work and dedication.<br /><br />
+          </p>
+          <div class="profile">
+            <img class="profile-image" src="images/vicky.jpg" alt="Vicky" />
+            <span class="endorser">Vicky</span>
+            <span class="job-title">Physiotherapist</span>
+          </div>
+        </div>
+        <div class="testimonial feature-area-bb">
+          <p class="testimonial__quote">
+            I now understand better the aim of each exercise, how to maximize
+            the benefits of my gym sessions, and have confidence to try out
+            new exercises and equipment.  Chris is careful to emphasise good
+            form and technique, avoiding risk of injury
+          </p>
+          <div class="profile">
+            <img class="profile-image" src="images/maurice.jpg" alt="Maurice" />
+            <span class="endorser">Maurice</span>
+            <span class="job-title">Retired</span>
+          </div>
+        </div>
+        <div class="testimonial feature-area-cc">
+          <p class="testimonial__quote">
+            Chris has a great way of making exercise fun, he even manages to
+            sneak in cardio without me noticing! I would 100% recommend Chris
+            as a PT whatever your goal might be. He is willing to put in the
+            hard work needed to help you on your journey to great fitness.
+          </p>
+          <div class="profile">
+            <img class="profile-image" src="images/lucy.jpg" alt="Lucy" />
+            <span class="endorser">Lucy</span>
+            <span class="job-title">Administrator</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="five-col-block">
+        <div class="five-col-block__column five-col-block__column--first">
+          <img src="images/logo-with-bg.svg" alt="Bodhi Fitness" />
+        </div>
+        <div class="five-col-block__column five-col-block__column--second">
+          <a class="mob-only" href="https://wa.me/447814350414">
+            <p class="tel">+44 7814 350 414</p>
+          </a>
+          <p class="tel dt-only">+44 7814 350 414</p>
+        </div>
+        <div class="five-col-block__column five-col-block__column--third">
+          <a href="mailto:bodhifitnessuk@gmail.com">
+            <p class="email">bodhifitnessuk@gmail.com</p>
+          </a>
+        </div>
+        <div class="five-col-block__column five-col-block__column--fourth">
+          <a href="https://www.instagram.com/bodhifitness/" target="_blank"
+            class="social-links__icon social-links__icon--instagram">
+            <p class="insta">@BodhiFitness</p>
+          </a>
+        </div>
+        <div class="five-col-block__column five-col-block__column--fifth">
+          <a href="https://www.facebook.com/BodhiFitnessUK/" target="_blank"
+            class="social-links__icon social-links__icon--facebook">
+            <p class="facebook">@BodhiFitnessUK</p>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
 
-    <script>
-      var ieWrap = document.getElementById("ie_wrap");
-      var modWrap = document.getElementById("modern_wrap");
-      if (navigator.userAgent.indexOf("MSIE") != -1)
-        var detectIEregexp = /MSIE (\d+\.\d+);/;
-      //test for MSIE x.x
-      // if no "MSIE" string in userAgent
-      else var detectIEregexp = /Trident.*rv[ :]*(\d+\.\d+)/; //test for rv:x.x or rv x.x where Trident string exists
+  <script>
+    var ieWrap = document.getElementById("ie_wrap");
+    var modWrap = document.getElementById("modern_wrap");
+    if (navigator.userAgent.indexOf("MSIE") != -1)
+      var detectIEregexp = /MSIE (\d+\.\d+);/;
+    //test for MSIE x.x
+    // if no "MSIE" string in userAgent
+    else var detectIEregexp = /Trident.*rv[ :]*(\d+\.\d+)/; //test for rv:x.x or rv x.x where Trident string exists
 
-      if (detectIEregexp.test(navigator.userAgent)) {
-        //if some form of IE
-        ieWrap.style.display = "block";
-        modWrap.style.display = "none";
-      } else {
-        ieWrap.style.display = "none";
-        modWrap.style.display = "block";
-      }
-    </script>
-    <script src="js/animation.js"></script>
-  </body>
+    if (detectIEregexp.test(navigator.userAgent)) {
+      //if some form of IE
+      ieWrap.style.display = "block";
+      modWrap.style.display = "none";
+    } else {
+      ieWrap.style.display = "none";
+      modWrap.style.display = "block";
+    }
+  </script>
+  <script src="js/animation.js"></script>
+</body>
+
 </html>
